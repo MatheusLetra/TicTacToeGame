@@ -33,4 +33,4 @@ The game will be published in the Google Play Store
 
 
 
-##### Developed by ML Development Team (Matheus Letra)
+##### Developed by Matheus Letra for the ML APPS DEVELOPMENT profile on Google Play Store 
