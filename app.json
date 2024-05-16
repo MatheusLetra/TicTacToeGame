@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "tictactoe",
-    "slug": "tictactoe",
+    "name": "Tic Tac Toe Mobile",
+    "slug": "tictactoemobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,10 +18,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mldeveloper.tictactoemobile"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "dfcefb4d-249e-4c66-89cd-9bc067cd8c36"
+      }
     }
   }
 }

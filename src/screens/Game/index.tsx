@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Alert, Text, TouchableOpacity, View } from "react-native";
 import { FontAwesome } from "@expo/vector-icons"
 
@@ -15,7 +15,14 @@ export default function Game({ handleShowHome }: GameProps) {
   const [squaresData, setSquaresData] = useState<string[]>([...initialSquaresData]);
   const [totalTurns, setTotalTurns] = useState(0);
   const [playerTurn, setPlayerTurn] = useState("X");
-  const [endGameResult, setEndGameResult] = useState("O vencedor é X");
+  const [endGameResult, setEndGameResult] = useState("");
+
+
+  useEffect(() => {
+    if (endGameResult !== "") {
+      Alert.alert("Fim de Jogo", endGameResult)
+    }
+  }, [endGameResult])
 
 
   const handleModifyData = (squareIndex: number) => {
@@ -43,7 +50,7 @@ export default function Game({ handleShowHome }: GameProps) {
     }
 
     if ((totalTurns + 1) === 9) {
-      setEndGameResult("Deu empate")
+      setEndGameResult("Empate")
       setSquaresData([...initialSquaresData])
       setTotalTurns(0)
     }
