@@ -16,21 +16,17 @@ The game will be published in the Google Play Store
 <div style="display: flex; justify-content:space-between;">
   <figure style="text-align:center; flex:1;">
     <img src=".github/screenshots/1.png" alt= "Image" width="200px"/>
-    <figcaption styles="text-align: center;">Splash Screen</figcaption>
   </figure>
   <figure style="text-align:center; flex:1;">
       <img src=".github/screenshots/2.png" alt= "Image" width="200px"/>
-      <figcaption styles="text-align: center;">Home Screen</figcaption>
   </figure>
   <figure style="text-align:center; flex:1;">
       <img src=".github/screenshots/3.png" alt= "Image" width="200px"/>
-      <figcaption styles="text-align: center;">Game Board Screen</figcaption>
   </figure>
   <figure style="text-align:center; flex:1;">
       <img src=".github/screenshots/4.png" alt= "Image" width="200px"/>
-      <figcaption styles="text-align: center;">Game Result Message</figcaption>
   </figure>
-  </div>
+</div>
 
 
 
