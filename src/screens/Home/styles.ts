@@ -14,7 +14,8 @@ const styles = StyleSheet.create({
   playbutton: {
     width: 100,
     height: 100,
-    resizeMode: 'center'
+    resizeMode: 'center',
+    marginTop: -50
   }
 })
 
