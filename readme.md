@@ -6,7 +6,7 @@ The game will be published in the Google Play Store
 
 # Running 
 
-- Then run "npm install" command to install the dependencies
+- First run "npm install" command to install the dependencies
 
 - Lastly run "npx expo start" or "npm start" on the terminal to start
 
