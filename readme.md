@@ -2,7 +2,7 @@
 
 This project is a simple game that reproduces a classical Tic Tac Toe in a Mobile version
 
-The game will be published on Google Play Store
+The game is published on the Google Play Store, access it through the link: [Google Play Store](https://play.google.com/store/apps/details?id=com.mldeveloper.tictactoemobile&pli=1)
 
 # Running 
 
