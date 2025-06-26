@@ -1,8 +1,9 @@
-import { Text, TouchableOpacity, View } from "react-native";
+import { TouchableOpacity, View } from "react-native";
 
 import { styles } from "./styles";
 
 import { SquareProps } from "@/interfaces/SquareProps";
+import LucideIcon from "../LucideIcon";
 
 export default function Square({ handleModifyData, squaresData, index }: SquareProps) {
 
@@ -20,7 +21,25 @@ export default function Square({ handleModifyData, squaresData, index }: SquareP
       onPress={handlePress}
     >
       <View style={styles.container}>
-        <Text style={styles.value}>{squaresData[index]}</Text>
+        {
+          squaresData[index] === 'X' && (
+            <LucideIcon 
+              name="X"
+              color="#CB6CE6"
+              size={50}
+            />
+          ) 
+        }
+
+        {
+          squaresData[index] === 'O' && (
+            <LucideIcon 
+              name="Circle"
+              color="#CB6CE6"
+              size={50}
+            />
+          ) 
+        }
       </View>
     </TouchableOpacity>
   )
